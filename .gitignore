@@ -1,0 +1,13 @@
+/node_modules
+
+npm-debug.log
+
+# IntelliJ
+*.iml
+/.idea
+/dummyData.json
+/.notes
+/config/development.env
+/chartJS2Scratch.js
+/src/scratch.html
+

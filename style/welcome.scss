@@ -1,0 +1,36 @@
+.welcome {
+    margin-top: 80px;
+  p {
+        font: 12pt 'SentinelSemibold';
+    }
+
+
+
+    .welcome-title {
+        font: 64pt 'KnockoutHTF67FullBantamwt';
+        letter-spacing: .05em;
+        border:1px solid transparent;
+        height: 64px;
+        text-decoration: none;
+
+    }
+
+    .middle-row {
+        margin-top: 80px;
+    }
+
+    .welcome-header {
+        font: 14pt 'SaracenHTFBlack';
+        letter-spacing: .1em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.go-to-feature {
+    font: 48pt 'Helvetica Neue';
+}
+
+a:focus, a:hover {
+  text-decoration: none !important;
+}
