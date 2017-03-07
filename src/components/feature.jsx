@@ -103,10 +103,8 @@ class Feature extends Component {
             .get(ROOT_URL + term, {
                 headers: {
                     'Content-Type':'application/json',
-                    // 'x-app-id': process.env.X_APP_ID,
-                    // 'x-app-key': process.env.X_APP_KEY,
-                    'x-app-id': 'eb493eec',
-                    'x-app-key': '986f169bce801699a016a1e031c3bc8e'
+                    'x-app-id': process.env.X_APP_ID,
+                    'x-app-key': process.env.X_APP_KEY
                 }
             })
             .then(
@@ -135,10 +133,8 @@ class Feature extends Component {
             .get(ROOT_URL + id, {
                 headers: {
                     'Content-Type':'application/json',
-                    // 'x-app-id': process.env.X_APP_ID,
-                    // 'x-app-key': process.env.X_APP_KEY
-                    'x-app-id': 'eb493eec',
-                    'x-app-key': '986f169bce801699a016a1e031c3bc8e'
+                    'x-app-id': process.env.X_APP_ID,
+                    'x-app-key': process.env.X_APP_KEY
                 }
             })
             .then(
