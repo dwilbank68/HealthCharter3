@@ -98,16 +98,15 @@ class Feature extends Component {
 
     foodSearch(term){
         const ROOT_URL = 'https://trackapi.nutritionix.com/v2/search/instant?query=';
-        console.log('------------------------------------------');
-        console.log('process.env ',JSON.stringify(process.env, null, 2));
-        console.log('process ',JSON.stringify(process, null, 2));
-        console.log('------------------------------------------');
+
         axios
             .get(ROOT_URL + term, {
                 headers: {
                     'Content-Type':'application/json',
-                    'x-app-id': process.env.X_APP_ID,
-                    'x-app-key': process.env.X_APP_KEY
+                    // 'x-app-id': process.env.X_APP_ID,
+                    // 'x-app-key': process.env.X_APP_KEY,
+                    'x-app-id': 'eb493eec',
+                    'x-app-key': '986f169bce801699a016a1e031c3bc8e'
                 }
             })
             .then(
