@@ -59,7 +59,7 @@
 
 
 .list-group-item {
-    background-color: #DDD;
+    background-color: rgba(0,0,0,.05);
 
     img {
       width: 60px;
@@ -68,10 +68,9 @@
 }
 
 .brand {
-    font: 10pt 'SentinelSemiBold';
+    font: 12pt 'SentinelSemiBold';
 }
 
 .food {
-    font: 9pt 'SentinelBlackItalic';
+    font: 10pt 'SentinelBlackItalic';
 }
-
